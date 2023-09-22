@@ -1,0 +1,37 @@
+.container {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.table-responsive{
+    max-width: 100%;
+    overflow-y: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background: #a1a1ff;
+    padding: 5px;
+}
+
+table th:first-child {
+    text-align: left;
+}
+
+table td{
+    text-align: right;
+    padding: 5px;
+}
